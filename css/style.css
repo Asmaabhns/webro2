@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+  body.dark-mode {
+    background-color: #111;
+    color: white;
+  }
+
+  body.dark-mode .bg-gray-100 {
+    background-color: #222 !important;
+  }
+
+  body.dark-mode .text-gray-700,
+  body.dark-mode .text-gray-800,
+  body.dark-mode .text-black {
+    color: #ccc !important;
+  }
+
+
